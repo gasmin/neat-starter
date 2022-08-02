@@ -1,4 +1,6 @@
 ---
 items:
+  - text: Bio
+    url: "/bio"
   - text: Blog
     url: "/blog"
