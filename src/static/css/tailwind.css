@@ -27,6 +27,7 @@ h3 {
   display: inline-block;
   align-items: center;
   text-decoration: none;
+  text-align: center;
   opacity: 0.8;
 }
 .wrapper .icon:hover{
