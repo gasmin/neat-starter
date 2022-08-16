@@ -14,7 +14,8 @@ h3 {
 }
 
 .fa {
-  background: none;
+  color: white;
+  background: black;
   padding: 5px;
   font-size: 20px;
   text-align: center;
