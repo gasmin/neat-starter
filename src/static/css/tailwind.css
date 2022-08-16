@@ -26,6 +26,10 @@ h3 {
   display: inline-block;
   align-items: center;
   text-decoration: none;
+  opacity: 0.7;
+}
+.wrapper .icon:hover{
+  opacity: 1.0;
 }
 /* Syntax Highlighting*/
 
