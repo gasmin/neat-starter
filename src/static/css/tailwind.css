@@ -14,7 +14,7 @@ h3 {
 }
 
 /*Social Icons */
-.wrapper .icon{
+.wrapper .iconrounded{
   position: relative;
   color: white;
   background-color: black;
@@ -30,7 +30,7 @@ h3 {
   text-align: center;
   opacity: 0.8;
 }
-.wrapper .icon:hover{
+.wrapper .iconrounded:hover{
   opacity: 1.0;
 }
 /* Syntax Highlighting*/
