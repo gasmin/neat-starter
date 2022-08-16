@@ -13,16 +13,6 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
-.fa {
-  color: white;
-  background: black;
-  padding: 5px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
