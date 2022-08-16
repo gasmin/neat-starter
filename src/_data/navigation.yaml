@@ -2,7 +2,7 @@
 items:
   - text: Home
     url: "/"
-  - text: About me
+  - text: About
     url: "/about"
 #  - text: Tutoring
 #    url: "/tutoring"
