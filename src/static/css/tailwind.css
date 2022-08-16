@@ -15,7 +15,7 @@ h3 {
 
 /*Social Icons */
 .wrapper .icon{
-  position: absolute;
+  position: relative;
   color: white;
   background-color: black;
   border-radius: 50%;
