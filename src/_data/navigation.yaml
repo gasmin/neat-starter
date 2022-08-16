@@ -1,5 +1,7 @@
 ---
 items:
+  - text: Home
+    url: "/src"
   - text: Bio
     url: "/bio"
   - text: Tutoring
