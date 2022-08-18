@@ -14,7 +14,7 @@ h3 {
 }
 
 /*Social Icons */
-.wrapper .icon{
+.icon{
   position: relative;
   color: white;
   width: 30px;
@@ -43,7 +43,7 @@ h3 {
   text-decoration: none;
   text-align: center;
 }
-.wrapper .icon:hover{
+.icon:hover{
   color: #b794f4
 }
 
