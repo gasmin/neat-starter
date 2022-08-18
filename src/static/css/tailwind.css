@@ -48,6 +48,18 @@ h3 {
 .wrapper .iconrounded:hover{
   opacity: 1.0;
 }
+
+/*Aboutme boxes*/
+.leftBox{
+  float: left;
+  width: 75%;
+  overflow: hidden;
+}
+.rightPBox{
+  float: right;
+  width: 25%;
+  overflow: hidden;
+}
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
