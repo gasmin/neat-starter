@@ -44,7 +44,7 @@ h3 {
   text-decoration: none;
   text-align: center;
 }
-.wrapper .icon{
+.wrapper .icon:hover{
   color: #b794f4
 }
 
