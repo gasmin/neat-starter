@@ -15,7 +15,7 @@ h3 {
 
 /*Social Icons */
 .icon:hover{
-  color: #b794f4
+  @apply text-4xl;
 }
 
 /*Aboutme boxes*/
