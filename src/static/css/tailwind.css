@@ -17,11 +17,10 @@ h3 {
 .wrapper .icon{
   position: relative;
   color: white;
-  margin: 7px;
   width: 30px;
   height: 30px;
   line-height: 30px;
-  font-size: 1vw;
+  font-size: 2vw;
   display: inline-block;
   align-items: center;
   text-decoration: none;
