@@ -43,10 +43,9 @@ h3 {
   align-items: center;
   text-decoration: none;
   text-align: center;
-  opacity: 0.8;
 }
 .wrapper .iconrounded:hover{
-  opacity: 1.0;
+  color: #b794f4
 }
 
 /*Aboutme boxes*/
