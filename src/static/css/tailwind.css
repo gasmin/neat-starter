@@ -7,8 +7,6 @@
   height: 34rem;
 }
 
-.lightgray-bg {background: #eeeeee; }
-
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
 }
