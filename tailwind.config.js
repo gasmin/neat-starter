@@ -1,4 +1,5 @@
 module.exports = {
+  content: ["./**/*.html"],
   theme: {
     container: {
       center: true,
@@ -8,12 +9,5 @@ module.exports = {
     },
   },
   variants: {},
-  content: [
-    "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
-  ],
-  plugins: [
-      require("tw-elements/dist/plugin.cjs"),
-      require("@tailwindcss/typography")],
-  darkMode: "class"
+  plugins: [require("@tailwindcss/typography")],
 };
