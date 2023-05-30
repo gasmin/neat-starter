@@ -1,5 +1,5 @@
 <div class="{{ 'lg:sticky' if path == 'home' }} w-full top-0  bg-white dark:bg-black lg:opacity-90 dark:lg:opacity-80">
-    <nav class="flex items-center justify-center lg:justify-between sm:flex-wrap md:flex-no-wrap px-6 py-3 lg:px-3 container mx-auto"
+    <nav class="flex items-center justify-center lg:justify-between flex-no-wrap px-6 py-3 lg:px-3 container mx-auto"
          x-data="{ isOpen: false }" @keydown.escape="isOpen = false" @click.away="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
@@ -24,7 +24,7 @@
         </div>
         <!-- Conatiner -->
         <div class="w-full flex">
-            <div class="w-full flex items-center justify-center">
+            <div class="w-full flex items-center justify-center sm:hidden">
                 <div class="text-xl md:text-2xl font-bold">
                     <span class="bg-clip-text text-transparent bg-cover bg-center"
                           style="background-image: url('https://user-images.githubusercontent.com/55332348/187034022-0b0f1a88-dbd9-45d6-a379-6a6405c3dc0a.jpeg')">Happy Pride!</span>
