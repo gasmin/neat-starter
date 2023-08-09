@@ -21,12 +21,12 @@ h3 {
 }
 
 /*Logo CSS*/
-darkLogo{
+.darkLogo{
   fill: var(--dark-color);
   stroke: var(--dark-color);
 }
 
-lightLogo{
+.lightLogo{
   fill: var(--light-color);
   stroke: var(--light-color);
 }
