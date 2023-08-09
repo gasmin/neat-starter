@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+}
+
 /*Your Custom CSS Goes here*/
 .h-128{
   height: 34rem;
@@ -13,6 +18,17 @@ h1 {
 
 h3 {
   @apply text-2xl font-bold mb-3;
+}
+
+/*Logo CSS*/
+.darkLogo{
+  fill: var(--dark-color);
+  stroke: var(--dark-color);
+}
+
+.lightLogo{
+  fill: var(--light-color);
+  stroke: var(--light-color);
 }
 
 /*Social Icons */
