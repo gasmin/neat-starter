@@ -34,8 +34,8 @@ h3 {
 #letter_d {
   stroke-dashoffset: 833.2442626953125px;
   stroke-dasharray: 833.2442626953125px;
-  -webkit-animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s forwards, fill 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s;
-  animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s forwards, fill 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s;
+  -webkit-animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s forwards, fill 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s forwards;
+  animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s forwards, fill 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s forwards;
 }
 
 @keyframes stroke-dashoffset {
@@ -53,6 +53,7 @@ h3 {
     fill: transparent;
   }
   to {
+    stroke: transparent;
     fill: var(--dark-color);
   }
 }
