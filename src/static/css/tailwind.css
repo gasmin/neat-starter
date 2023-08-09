@@ -22,13 +22,13 @@ h3 {
 
 /*Logo CSS*/
 .darkLogo{
-  fill: var(--dark-color);
-  stroke: var(--dark-color);
+  @apply fill: var(--dark-color);
+  @apply stroke: var(--dark-color);
 }
 
 .lightLogo{
-  fill: var(--light-color);
-  stroke: var(--light-color);
+  @apply fill: var(--light-color);
+  @apply stroke: var(--light-color);
 }
 
 /*Social Icons */
