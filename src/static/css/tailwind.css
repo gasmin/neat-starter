@@ -36,7 +36,7 @@ h3 {
   stroke-dasharray: 833.2442626953125px;
   stroke: var(--dark-color);
   fill: transparent;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
   -webkit-animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
   fill 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s;
   animation: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
