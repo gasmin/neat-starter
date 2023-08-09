@@ -21,14 +21,14 @@ h3 {
 }
 
 /*Logo CSS*/
-.darkLogo{
-  @apply fill: var(--dark-color);
-  @apply stroke: var(--dark-color);
+darkLogo{
+  fill: var(--dark-color);
+  stroke: var(--dark-color);
 }
 
-.lightLogo{
-  @apply fill: var(--light-color);
-  @apply stroke: var(--light-color);
+lightLogo{
+  fill: var(--light-color);
+  stroke: var(--light-color);
 }
 
 /*Social Icons */
