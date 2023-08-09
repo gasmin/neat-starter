@@ -39,7 +39,11 @@ h3 {
 }
 
 @keyframes stroke-dashoffset {
+  from {
+    fill: transparent;
+  }
   to {
+    fill: transparent;
     stroke-dashoffset: 0;
   }
 }
