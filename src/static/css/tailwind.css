@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --dark-color: #000000;
-  --light-color: #ffffff;
-  --animation-color: #ffffff;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --logo-color: #ffffff;
+    --animation-color: #ffffff;
+  }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --logo-color: #000000;
+    --animation-color: #000000;
+  }
+}
+
 
 /*Your Custom CSS Goes here*/
 .h-128{
