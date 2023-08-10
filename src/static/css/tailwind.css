@@ -137,7 +137,7 @@ Logo animation
 #full_logo_animated {
   stroke-dashoffset: 2420.51171875px;
   stroke-dasharray: 1210.51171875px;
-  animation: dash 5s ease-in-out infinite;
+  animation: dash 5s ease-in infinite;
   animation-delay:0s;
 }
 
