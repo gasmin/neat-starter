@@ -134,6 +134,19 @@ Logo animation
   animate-svg-fill-2 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2000000000000002s both;
 }
 
+#full_logo_animated {
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: dash 5s ease-in-out;
+  animation-delay:2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
 
 /*Social Icons */
 .icon:hover{
