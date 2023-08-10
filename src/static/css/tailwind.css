@@ -76,7 +76,7 @@ Logo animation
   }
 }
 
-#letter_g {
+#letter_g_animated {
   -webkit-animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
   animate-svg-fill-1 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
   animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
@@ -127,7 +127,7 @@ Logo animation
   }
 }
 
-#letter_d {
+#letter_d_animated {
   -webkit-animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both,
   animate-svg-fill-2 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2000000000000002s both;
   animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both,
