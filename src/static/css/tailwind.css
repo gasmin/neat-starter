@@ -144,7 +144,7 @@ Logo animation
 
 @keyframes dash {
   to{
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 100%;
   }
 }
 
