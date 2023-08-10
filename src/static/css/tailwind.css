@@ -135,8 +135,8 @@ Logo animation
 }
 
 #full_logo_animated {
-  stroke-dashoffset: 0;
-  stroke-dasharray: 100%;
+  stroke-dashoffset: 2420.51171875px;
+  stroke-dasharray: 2420.51171875px;
   animation: dash 5s ease-in-out;
   animation-delay:2s;
   animation-fill-mode: forwards;
@@ -144,7 +144,7 @@ Logo animation
 
 @keyframes dash {
   to{
-    stroke-dashoffset: 100%;
+    stroke-dashoffset: 0px;
   }
 }
 
