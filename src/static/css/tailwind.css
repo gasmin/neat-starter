@@ -133,15 +133,15 @@ Logo animation
   animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both,
   animate-svg-fill-2 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2000000000000002s both;
 }
-
+/*  stroke-dashoffset: 2420.51171875px;*/
 #full_logo_animated {
-  stroke-dashoffset: 2420.51171875px;
-  stroke-dasharray: 1210.51171875px;
+  stroke-dashoffset: 0px;
+  stroke-dasharray: 1810.51171875px;
   animation: dash 5s linear infinite;
   animation-delay:0s;
 }
 
-@keyframes dash {
+@keyframes dash {Anim
   to{
     stroke-dashoffset: 0px;
   }
