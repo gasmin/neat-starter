@@ -136,14 +136,14 @@ Logo animation
 /*  stroke-dashoffset: 2420.51171875px;*/
 #full_logo_animated {
   stroke-dashoffset: 0px;
-  stroke-dasharray: 1810.51171875px;
+  stroke-dasharray: 1000px;
   animation: dash 5s linear infinite;
   animation-delay:0s;
 }
 
 @keyframes dash {
   to{
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 1000px;
   }
 }
 
