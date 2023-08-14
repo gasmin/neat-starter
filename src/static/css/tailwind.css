@@ -165,7 +165,7 @@ Logo animation
 }
 
 #full_logo_animated {
-  -webkit-animation: animate-svg-stroke-1 10s linear 0s both infinite;
+  -webkit-animation: animate-svg-stroke-1 10s linear 0s forwards infinite;
   animation: animate-svg-stroke-1 10s linear 0s both infinite;
 }
 
