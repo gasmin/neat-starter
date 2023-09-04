@@ -68,8 +68,10 @@
     <script>
       document.body.classList.remove("no-js");
       $(window).on('load', function () {
-        $('.logo-wrapper').fadeOut("slow");
-      })
+        setTimeout(function () {
+          $('.logo-wrapper').fadeOut("slow");
+        }, 1000)
+      });
     </script>
   </body>
 </html>
