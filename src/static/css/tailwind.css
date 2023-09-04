@@ -169,10 +169,11 @@ Logo animation
   animation: animate-svg-stroke-1 10s linear 0s both infinite;
 }
 
-/* Logo Wrapper on load */
+/* Logo Wrapper on load *
 .no-js .logo-wrapper {
   display: none;
 }
+*/
 
 /*Social Icons */
 .icon:hover{
